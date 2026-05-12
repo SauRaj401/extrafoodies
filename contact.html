@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extra Foodies - Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive-style.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar navbar-expand-lg navigation-wrap">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Extra Foodies logo"></a>
+                <button class="navbar-toggler" type="button" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation"><span class="nav-icon-bar"></span><span class="nav-icon-bar"></span><span class="nav-icon-bar"></span></button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+                        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="contact.html">Contact</a></li>
+                        <li class="nav-item ms-lg-3"><a class="main-btn nav-cta" href="contact.html">Order Now</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero page-hero--compact">
+            <div class="container">
+                <div class="row align-items-center gy-5">
+                    <div class="col-lg-7">
+                        <p class="hero-eyebrow">Questions & Contact</p>
+                        <h1>Get in touch or find answers to common questions.</h1>
+                        <p class="hero-copy">Have questions about delivery, orders, or our menu? Contact us or check our FAQ below.</p>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="content-panel">
+                            <img src="images/bg/bg-3.jpg" alt="Dining room background" class="img-fluid rounded-4">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-block">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-5">
+                        <div class="contact-card">
+                            <p class="section-label">Contact info</p>
+                            <h2>We're here to help with your order.</h2>
+                            <div class="contact-meta mt-4">
+                                <div class="contact-meta__item"><span class="contact-meta__label">Addr</span><div><h4>Address</h4><p> 133, Church Street, Geelong West, Australia</p></div></div>
+                                <div class="contact-meta__item"><span class="contact-meta__label">Tel</span><div><h4>Support</h4><p>0302116065</p></div></div>
+                                <div class="contact-meta__item"><span class="contact-meta__label">Hrs</span><div><h4>Hours</h4><p>Daily, 11:00 AM - 11:00 PM</p></div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <form class="contact-form" data-contact-form novalidate>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label class="form-label" for="contact-name">Full name</label>
+                                    <input class="form-control" type="text" id="contact-name" name="name" placeholder="Your name">
+                                    <small class="field-error" data-error-for="contact-name"></small>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label" for="contact-email">Email address</label>
+                                    <input class="form-control" type="email" id="contact-email" name="email" placeholder="name@example.com">
+                                    <small class="field-error" data-error-for="contact-email"></small>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label" for="contact-subject">Subject</label>
+                                    <select class="form-select" id="contact-subject" name="subject">
+                                        <option value="">Choose a subject</option>
+                                        <option value="Order Help">Order Help</option>
+                                        <option value="Delivery Issue">Delivery Issue</option>
+                                        <option value="General Inquiry">General Inquiry</option>
+                                    </select>
+                                    <small class="field-error" data-error-for="contact-subject"></small>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label" for="contact-message">Message</label>
+                                    <textarea class="form-control" id="contact-message" name="message" placeholder="Write your message here"></textarea>
+                                    <small class="field-error" data-error-for="contact-message"></small>
+                                </div>
+                                <div class="col-12 d-flex flex-wrap gap-3 align-items-center">
+                                    <button class="main-btn" type="submit">Send message</button>
+                                    <p class="form-status" data-form-status></p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-block section-block--alt">
+            <div class="container">
+                <div class="section-heading text-center">
+                    <p class="section-label">FAQ</p>
+                    <h2>Accordion answers controlled by JavaScript</h2>
+                </div>
+                <div class="faq-stack">
+                    <div class="accordion-item" data-accordion-item>
+                        <button class="accordion-trigger" type="button" data-accordion-button aria-expanded="true">How long does delivery take? <span>+</span></button>
+                        <div class="accordion-panel" data-accordion-panel style="max-height: 180px;"><p>We deliver to most areas within 30-40 minutes of order placement. Some areas may take longer depending on distance. Track your order in real-time.</p></div>
+                    </div>
+                    <div class="accordion-item" data-accordion-item>
+                        <button class="accordion-trigger" type="button" data-accordion-button aria-expanded="false">Is there a minimum order amount? <span>+</span></button>
+                        <div class="accordion-panel" data-accordion-panel><p>There is a $10 minimum order value. We want to make sure delivery is efficient for everyone.</p></div>
+                    </div>
+                    <div class="accordion-item" data-accordion-item>
+                        <button class="accordion-trigger" type="button" data-accordion-button aria-expanded="false">What areas do you deliver to? <span>+</span></button>
+                        <div class="accordion-panel" data-accordion-panel><p>We currently deliver throughout downtown and surrounding neighborhoods. Enter your address in the order form to check if we serve your area.</p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row gy-4 align-items-center">
+                <div class="col-lg-5">
+                    <a href="index.html" class="footer-brand">Extra Foodies</a>
+                    <p class="footer-copy">Quality food delivery service with fresh ingredients, fast delivery, and easy online ordering for the whole community.</p>
+                </div>
+                <div class="col-lg-4">
+                    <div class="footer-links">
+                        <a href="about.html">About</a>
+                        <a href="menu.html">Menu</a>
+                        <a href="gallery.html">Gallery</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 text-lg-end">
+                    <div class="footer-social">
+                        <a href="#">Facebook</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bar text-center"><p>© 2026 Extra Foodies. All rights reserved.</p></div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
